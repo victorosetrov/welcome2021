@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/victorosetrov/welcome2021#readme",
   "dependencies": {
+    "lazysizes": "^5.3.0",
     "lodash": "^4.17.20",
     "normalize.css": "^8.0.1"
   },
