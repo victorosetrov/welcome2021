@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+  crossorigin="anonymous"
+/>
+  <link rel="stylesheet" href="style/style.css" />
+  <title>My CV</title>
+</head>
+<body onload="listNames()">
+  <div class="container">
+    <!-- Navigation -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <span class="navbar-brand mb-0 h1"> My CV</span>
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <div class="header-text-box">
+        <h1>Hey, I'm Viktor</h1>
+        <p class="header-text">
+          +10 years experience in the sphere of internet technologies development. Experienced executive working in the tech-startups, science environment. Tech Analyst experience for Google via Accenture. At Zendesk as a Technical Support Engineer since 05/2021. 
+        </p>
+        
+          <form class="form-inline">
+            <p class="features-text">Please enter your Email address:<br><input class="form-control mr-sm-2" type='text' id="myEmail"/></p>
+          <button type="button" class="btn btn-outline-success btn-lg" onclick="myFunction()">Get in touch with me for more information</button>
+          </form>
+
+      </div>
+      <img src="images/hero.jpg" alt="Photo" />
+    </header>
+
+    <section>
+      <h2>My Education</h2>
+      <div class="grid-3-cols">
+        <div>
+          <p>🇷🇺</p>
+          <p class="features-title"><strong>Mari State University</strong></p>
+          <p class="features-text">
+            Russian Federation / Specialist / Historian <br>2005-2011
+          </p>
+        </div>
+
+    
+          <div>
+            <p>🇺🇸</p>
+            <p class="features-title"><strong>Draper University</strong></p>
+            <p class="features-text">
+              United States of America / Diploma / Entrepreneurship <br>2016
+            </p>
+          </div>
+
+        <div>
+          <p>🇮🇪</p>
+          <p class="features-title">
+            <strong>National College of Ireland</strong>
+          </p>
+          <p class="features-text">
+            Ireland / Higher Diploma / Web-development <br>2021-2022
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="testimonial-section">
+      <div class="grid-3-cols">
+        <img src="images/customers.jpg" alt="People sitting on chairs" />
+        <div class="testimonial-box">
+          <h2>"Here’s how I got started…"</h2>
+          <blockquote class="testimonial-text">
+            I have graduated from Mari State University in Russia with high disctinction - my first degree was "Historian". 
+            However from that time, I already had a lot of interests in the data processing area and web development.
+          </blockquote>
+          <p class="testimonial-author">&mdash; Viktor Osetrov</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Work Experience</h2>
+      <div class="grid-3-cols">
+        <figure class="chair">
+          <div class="chair-box">
+            <h3>RealSpeaker Limited <br> IT Manager</h3>
+            <p>2012-2019</p>
+            <ul class="chair-details">
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="chair-icon"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                  />
+                </svg>
+                <!-- Span is a generic INLINE text element, it doesn't have any meaning. It's like a div element, but inline -->
+                <span>Lean Startup</span>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="chair-icon"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span>Scrum</span>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="chair-icon"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span>Web marketing</span>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="chair-icon"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+                  />
+                </svg>
+                <span>2 patents</span>
+              </li>
+            </ul>
+          </div>
+        </figure>
+
+        <figure class="chair">
+          <div class="chair-box">
+            <h3>Display and Video 360, Google <br> Technical Analyst</h3>
+            <p>2019 - 2021</p>
+            <ul class="chair-details">
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="chair-icon"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                  />
+                </svg>
+                <span>Data Analyst</span>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="chair-icon"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span>Policy works</span>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="chair-icon"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span>Advertisement</span>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="chair-icon"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+                  />
+                </svg>
+                <span>Databases</span>
+              </li>
+            </ul>
+          </div>
+        </figure>
+
+        <figure class="chair">
+          <div class="chair-box">
+            <h3>Zendesk <br> Technical Support Engineer</h3>
+            <p>2021 - Now</p>
+            <ul class="chair-details">
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="chair-icon"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                  />
+                </svg>
+                <span>Troubleshooting</span>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="chair-icon"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span>Debugging</span>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="chair-icon"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span>APIs</span>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="chair-icon"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+                  />
+                </svg>
+                <span>Data logs</span>
+              </li>
+            </ul>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <div class="row">
+        <div class="col-lg-6 show">
+          <h2>Quiz about me</h2>
+          <p>Possible answers:</p>
+          <ul>
+            <li>historian</li>
+            <li>developer</li>
+            <li>entrepreneurship</li>
+          </ul>
+          <button type="button" class="btn btn-outline-success btn-lg btn-block" onclick="dice()">Do you know the name of my first degree? 🔬</button>
+        </div>
+        <div class="col-lg-6 show">
+          <h2>Give me a score</h2>
+          <p>How do you like my site?</p>
+          <ul>
+            <li id="name">number: </li>
+            <li>subjects: <span id="main"></span></li>
+            <li id="score">scores: </li>
+          </ul>
+  
+          <button type="button" class="btn btn-outline-success btn-lg btn-block" onclick="addToEnd()">Could you add a subject name and score? 🎯</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>Copyright &copy; 2022 by Viktor Osetrov.
+      Thank you for the time reviewing my Curriculum Vitae. If needed I am more than happy to provide references upon request.
+    </footer>
+  </div>
+ 
+<script src="script.js"></script>  
+</body>
+</html>
